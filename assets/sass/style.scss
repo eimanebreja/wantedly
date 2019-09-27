@@ -1,0 +1,217 @@
+body {
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: "palt";
+  font-feature-settings: "palt";
+  font-size: 14px;
+  line-height: 26px;
+  color: #45494b;
+}
+
+nav {
+  .nav-container {
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      a {
+        img {
+          width: 100%;
+        }
+      }
+
+    }
+
+    .nav-link {
+      ul {
+        display: flex;
+
+        li {
+          padding: 10px 20px;
+          list-style: none;
+
+          a {
+            color: unset;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+.header-main {
+  margin-top: -90px;
+  padding-top: 30px;
+  overflow: hidden;
+
+  .header-container {
+    max-width: 1280px;
+    margin: 0 auto;
+
+    .header-area {
+      position: relative;
+      height: 1050px;
+      margin-top: 80px;
+
+      .header-title {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        margin-left: 5%;
+        z-index: 2;
+
+        img {
+          width: 80%;
+          transform: translate3d(0px, -7.67775px, 0px);
+        }
+
+        .header-message {
+          width: 33%;
+          margin: 42px 0 0;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 2.0;
+          letter-spacing: 0.3px;
+          color: rgba(0, 0, 0, 0.7);
+        }
+      }
+
+      .header-img {
+        position: absolute;
+        top: 140px;
+        right: 0;
+        margin-left: 160px;
+        margin-bottom: 60px;
+        width: 60%;
+        transition: all 480ms ease-in-out;
+
+        img {
+          width: 100%;
+          box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.1);
+          transition: all 480ms ease-in-out;
+        }
+
+      }
+
+      .header-line {
+        position: absolute;
+        top: 460px;
+        right: 55%;
+        width: 17.5%;
+        transform: translate3d(0px, 17px, 0px);
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .header-bg {
+        width: 95%;
+        position: absolute;
+        top: -200px;
+        left: 5%;
+        z-index: -1;
+
+        img {
+          width: 2000px;
+          border-style: none;
+        }
+      }
+    }
+
+
+    .product-area {
+      position: relative;
+      height: 1300px;
+      margin-top: 20px;
+
+      .product-title {
+        text-align: center;
+
+        h1 {
+          font-family: Poppins, sans-serif;
+          font-weight: 600;
+          color: rgba(0, 0, 0, 0.7);
+          margin: 0 0 10px;
+          font-size: 27px;
+          letter-spacing: 2px;
+        }
+
+        span {
+          font-size: 16px;
+          color: rgba(0, 0, 0, 0.3);
+          letter-spacing: 1px;
+        }
+      }
+
+      .product-main {
+        .image-out {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-end;
+          align-content: space-between;
+
+          &:last-child {
+            align-items: flex-start;
+            flex-direction: row-reverse;
+            margin-top: 3%;
+
+            .image-in {
+              margin-left: 40px;
+
+              a {
+                img {
+                  width: 100%;
+                  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+                  -webkit-transition: all 300ms;
+                  transition: all 300ms;
+                }
+              }
+
+              &:first-child {
+                margin-right: 0%;
+                margin-left: 0%;
+
+              }
+            }
+
+          }
+
+          .image-in {
+            margin-right: 40px;
+
+            a {
+              img {
+                width: 100%;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+                -webkit-transition: all 300ms;
+                transition: all 300ms;
+              }
+            }
+
+            &:first-child {
+              margin-right: 3%;
+
+            }
+          }
+        }
+      }
+
+      .product-bg {
+        img {
+          width: 845px;
+          position: absolute;
+          bottom: 100px;
+          left: 0;
+          z-index: -1;
+        }
+      }
+    }
+  }
+
+}

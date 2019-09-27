@@ -102,7 +102,7 @@ nav .nav-container {
       .header-main .header-container .product-area .product-main .image-out {
         display: flex;
         flex-direction: row;
-        align-items: flex-end;
+        align-items: flex-start;
         align-content: space-between; }
         .header-main .header-container .product-area .product-main .image-out:last-child {
           align-items: flex-start;
@@ -125,8 +125,23 @@ nav .nav-container {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
             -webkit-transition: all 300ms;
             transition: all 300ms; }
+            .header-main .header-container .product-area .product-main .image-out .image-in a img.top-image {
+              margin-top: -120px; }
+          .header-main .header-container .product-area .product-main .image-out .image-in a:hover img {
+            width: 100%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+            -webkit-transition: all 300ms;
+            transition: all 300ms;
+            margin-top: -5px; }
+            .header-main .header-container .product-area .product-main .image-out .image-in a:hover img.top-image {
+              margin-top: -130px; }
           .header-main .header-container .product-area .product-main .image-out .image-in:first-child {
             margin-right: 3%; }
+            .header-main .header-container .product-area .product-main .image-out .image-in:first-child a img {
+              width: 100%;
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+              -webkit-transition: all 300ms;
+              transition: all 300ms; }
       .header-main .header-container .product-area .product-bg img {
         width: 845px;
         position: absolute;

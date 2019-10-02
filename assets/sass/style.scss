@@ -74,9 +74,12 @@ nav {
         margin-left: 5%;
         z-index: 2;
 
+
+
         img {
           width: 80%;
           transform: translate3d(0px, -7.67775px, 0px);
+
         }
 
         .header-message {
@@ -914,8 +917,6 @@ nav {
           z-index: 100;
           background: rgba(255, 255, 255, .92);
           display: none;
-          -webkit-transition: height 0.5s linear;
-
 
           &.onn {
             display: block;
